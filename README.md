@@ -2,7 +2,7 @@
 ## 高速CSVエディター
 
 <p align="center">
-  <img src="./readme-image/icon-dotmd-arrow.png" width="64" alt="dotmd Icon">
+  <img src="./readme-image/app-icon.png" width="64" alt="dotmd Icon">
 </p>
 
 ## 概要
