@@ -1,10 +1,26 @@
-# LightningCSV ⚡
+# LightningCSV
+
+<p align="center">
+  <img src="./images/LightningCSV.png" width="50" alt="画像の説明">
+</p>
 
 **巨大 CSV ファイルも一瞬で開ける、Windows / macOS 向け高速 CSV / テキストエディター**
 
 10 GB 超のファイルもストレスなく閲覧・編集・検索・集計できます。
 
 ---
+
+<p align="center">
+  <img src="./images/Screenshot/01.png" width="500" alt="画像の説明">
+</p>
+
+<p align="center">
+  <img src="./images/Screenshot/03.png" width="500" alt="画像の説明">
+</p>
+
+<p align="center">
+  <img src="./images/Screenshot/06.png" width="500" alt="画像の説明">
+</p>
 
 ## ダウンロード・インストール
 
