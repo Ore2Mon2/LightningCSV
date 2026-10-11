@@ -9,8 +9,8 @@
 ### 動作環境
 
 - **Windows 11**（64 ビット）
-- **macOS 11 Big Sur 以降**
-  - Apple Silicon 。macOS 26 で動作確認
+- **macOS 13 Ventura 以降（Apple Silicon 搭載の Mac のみ。Intel Mac には対応していません）**
+  - macOS 27 で動作確認
 
 ---
 
@@ -35,6 +35,11 @@ Windows 版はコード署名済み、macOS 版は Developer ID 署名と Apple 
 |---------|------|
 | `LightningCSV_x.x.x_windows_portable.zip` | **Windows ポータブル版** — インストール不要。zip を展開して `LightningCSV.exe` を実行するだけで使えます |
 | `LightningCSV_x.x.x_macos_arm64.dmg` | **macOS 版**（Apple Silicon）— dmg を開き、`LightningCSV` を「アプリケーション」フォルダへドラッグしてください |
+
+### 1.x からの更新（Windows ポータブル版）
+
+- zip を展開した中身を、1.x と同じフォルダに上書きするか、任意のフォルダに置いてください（念のため、更新前に 1.x のフォルダをバックアップしておくことをおすすめします）
+- 設定ファイル（`config.json`）の形式は 1.x と同じです。1.x と同じフォルダに置けば、設定がそのまま引き継がれます
 
 ---
 
@@ -123,7 +128,7 @@ Windows 版はコード署名済み、macOS 版は Developer ID 署名と Apple 
 - フィルター結果・SQL 結果を保存するときに以下を選択可能（前回選んだ内容を記憶）:
   - 拡張子（.csv / .tsv / .txt）
   - 区切り文字（カンマ / タブ / セミコロン / パイプ / スペース）
-  - 文字コード（UTF-8 / UTF-8 BOM 付き / Shift_JIS / UTF-16 LE）
+  - 文字コード（UTF-8 / UTF-8 BOM 付き / Shift_JIS）
   - 改行コード（CRLF / LF）
   - クォート文字 / ヘッダー行の有無 / NULL の表現
 
